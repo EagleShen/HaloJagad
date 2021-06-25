@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.API", "1.API", "{27C91C07-6EA1-4CC8-AEAE-D232486E477D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloJagad.API", "HaloJagad\HaloJagad.API\HaloJagad.API.csproj", "{BD14DFD6-1AE4-41D3-AA85-0BB109F0DEA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloJagad.API.Common", "HaloJagad\HaloJagad.API.Common\HaloJagad.API.Common.csproj", "{45CEDAB7-9B15-4C69-A8AF-2C58E744A940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloJagad.API.DataContracts", "HaloJagad\HaloJagad.API.DataContracts\HaloJagad.API.DataContracts.csproj", "{462297EF-E95B-4F13-B5A1-8BFFC247EF18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.Tests", "00.Tests", "{1A0CBF6F-073E-4F7E-9C46-D9C9BB0AC226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloJagad.API.Tests.Controllers", "HaloJagad\HaloJagad.API.Tests.Controllers\HaloJagad.API.Tests.Controllers.csproj", "{4498A677-2AF3-4BDF-9BE7-6FE917C63EFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloJagad.API.Tests.REST", "HaloJagad\HaloJagad.API.Tests.REST\HaloJagad.API.Tests.REST.csproj", "{F6525DA8-62DF-4F5D-9D44-D92B24246EFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Common", "01.Common", "{75C4A8DB-B7C5-439B-B1F1-155C9E1D3494}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloJagad.IoC.Configuration", "HaloJagad\HaloJagad.IoC.Configuration\HaloJagad.IoC.Configuration.csproj", "{7BA12E26-0A9A-42BA-BB0D-725BB42672AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloJagad.Tools", "HaloJagad\HaloJagad.Tools\HaloJagad.Tools.csproj", "{F3F6808B-B7B6-4F3A-8CF6-2D418C2E003D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Services", "2.Services", "{FDE25466-EF62-4F75-97CE-20F1540F1961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloJagad.Services", "HaloJagad\HaloJagad.Services\HaloJagad.Services.csproj", "{BAC84DBB-CE28-4B38-9639-6DB1D35EAAF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloJagad.Services.Contracts", "HaloJagad\HaloJagad.Services.Contracts\HaloJagad.Services.Contracts.csproj", "{6F83704D-5FF1-417F-BC29-FC1867900F1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloJagad.Services.Model", "HaloJagad\HaloJagad.Services.Model\HaloJagad.Services.Model.csproj", "{A56B96BA-0CB7-4347-8C2E-599A700A0808}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Repositories", "3.Repositories", "{1DD5306A-D5E6-47B3-9BD8-63CF1F3BA9A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD14DFD6-1AE4-41D3-AA85-0BB109F0DEA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD14DFD6-1AE4-41D3-AA85-0BB109F0DEA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD14DFD6-1AE4-41D3-AA85-0BB109F0DEA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD14DFD6-1AE4-41D3-AA85-0BB109F0DEA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45CEDAB7-9B15-4C69-A8AF-2C58E744A940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CEDAB7-9B15-4C69-A8AF-2C58E744A940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45CEDAB7-9B15-4C69-A8AF-2C58E744A940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CEDAB7-9B15-4C69-A8AF-2C58E744A940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462297EF-E95B-4F13-B5A1-8BFFC247EF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462297EF-E95B-4F13-B5A1-8BFFC247EF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462297EF-E95B-4F13-B5A1-8BFFC247EF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462297EF-E95B-4F13-B5A1-8BFFC247EF18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4498A677-2AF3-4BDF-9BE7-6FE917C63EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4498A677-2AF3-4BDF-9BE7-6FE917C63EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4498A677-2AF3-4BDF-9BE7-6FE917C63EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4498A677-2AF3-4BDF-9BE7-6FE917C63EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6525DA8-62DF-4F5D-9D44-D92B24246EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6525DA8-62DF-4F5D-9D44-D92B24246EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6525DA8-62DF-4F5D-9D44-D92B24246EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6525DA8-62DF-4F5D-9D44-D92B24246EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA12E26-0A9A-42BA-BB0D-725BB42672AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA12E26-0A9A-42BA-BB0D-725BB42672AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA12E26-0A9A-42BA-BB0D-725BB42672AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA12E26-0A9A-42BA-BB0D-725BB42672AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3F6808B-B7B6-4F3A-8CF6-2D418C2E003D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F6808B-B7B6-4F3A-8CF6-2D418C2E003D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F6808B-B7B6-4F3A-8CF6-2D418C2E003D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F6808B-B7B6-4F3A-8CF6-2D418C2E003D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC84DBB-CE28-4B38-9639-6DB1D35EAAF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC84DBB-CE28-4B38-9639-6DB1D35EAAF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC84DBB-CE28-4B38-9639-6DB1D35EAAF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC84DBB-CE28-4B38-9639-6DB1D35EAAF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F83704D-5FF1-417F-BC29-FC1867900F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F83704D-5FF1-417F-BC29-FC1867900F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F83704D-5FF1-417F-BC29-FC1867900F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F83704D-5FF1-417F-BC29-FC1867900F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56B96BA-0CB7-4347-8C2E-599A700A0808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56B96BA-0CB7-4347-8C2E-599A700A0808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56B96BA-0CB7-4347-8C2E-599A700A0808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56B96BA-0CB7-4347-8C2E-599A700A0808}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD14DFD6-1AE4-41D3-AA85-0BB109F0DEA2} = {27C91C07-6EA1-4CC8-AEAE-D232486E477D}
+		{45CEDAB7-9B15-4C69-A8AF-2C58E744A940} = {27C91C07-6EA1-4CC8-AEAE-D232486E477D}
+		{462297EF-E95B-4F13-B5A1-8BFFC247EF18} = {27C91C07-6EA1-4CC8-AEAE-D232486E477D}
+		{4498A677-2AF3-4BDF-9BE7-6FE917C63EFD} = {1A0CBF6F-073E-4F7E-9C46-D9C9BB0AC226}
+		{F6525DA8-62DF-4F5D-9D44-D92B24246EFB} = {1A0CBF6F-073E-4F7E-9C46-D9C9BB0AC226}
+		{7BA12E26-0A9A-42BA-BB0D-725BB42672AD} = {75C4A8DB-B7C5-439B-B1F1-155C9E1D3494}
+		{F3F6808B-B7B6-4F3A-8CF6-2D418C2E003D} = {75C4A8DB-B7C5-439B-B1F1-155C9E1D3494}
+		{BAC84DBB-CE28-4B38-9639-6DB1D35EAAF9} = {FDE25466-EF62-4F75-97CE-20F1540F1961}
+		{6F83704D-5FF1-417F-BC29-FC1867900F1F} = {FDE25466-EF62-4F75-97CE-20F1540F1961}
+		{A56B96BA-0CB7-4347-8C2E-599A700A0808} = {FDE25466-EF62-4F75-97CE-20F1540F1961}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4B67453-409A-4BC1-88D6-7E876270DE41}
+	EndGlobalSection
+EndGlobal
